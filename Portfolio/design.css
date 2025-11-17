@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Lucida Sans", "Lucida Grande", "Verdana", sans-serif;
+}
+html{
+    font-size: 60%;
+}
+body{
+    width: 100%;
+    height: 100vh ;
+    background-color: #181A1B;
+    color: wheat;
+}
+header{
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.Logo{
+    font-size: 3rem;
+    color: #ffd700;
+    font-weight: 800;
+    transition: 0.5s ease;
+}
+.Logo:hover{
+    transform: scale(1.1);
+}
+nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 32px;
+    ul{
+        a{
+            font-size: 15px;
+            color: wheat;
+            margin-left: 45px;
+            font-weight: 500;
+            transition: 0.3s ease;
+            &:hover{
+                color: #ffd700;
+                border-bottom: 2px solid #ffd700;
+            &:active{
+                color: #ffd700;
+                border-bottom: 2px solid #ffd700;
+            }
+            }
+        }
+    }
+}
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181A1B;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    .HomeContent h1{
+        font-size: 4.5rem;
+        font-size: 700;
+        line-height: 1.3;
+    }
+    .HomeContent h3{
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .HomeContent p{
+        font-size: 2rem;
+        letter-spacing: 0.8px;
+    }
+    .HomeImg{
+        background-color: #202324;
+        border-radius: 50%;
+        margin-right: 50px;  
+    }
+    img{
+        position: relative;
+        width: 60vh;
+        border-radius: 50%;
+        box-shadow: 0 0 25px solid #ffd700;  
+    }
+    img:hover{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
+span{
+    color: #ffd700;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #202324;
+  padding: 10px 0;
+    .Cont{
+        margin: 5px;
+    }
+    .Con{
+        color: wheat;
+        font-size: 13px;
+        letter-spacing: 0.8px;
+        margin-left: 20px;
+    }
+    ul{
+        margin-top: 5px;
+    }
+}
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181A1B;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 5rem;
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
+    .AboutContent h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #ffd700;
+    }
+    .AboutContent p{
+        font-size: 1.5rem;
+        letter-spacing: 0.8px;
+        margin-right: 30px;
+    }
+    .AboutImg{
+        border-radius: 20%;
+        margin-right: 50px;
+    }
+    .AboutImg h1{
+        color: #ffd700;
+        font-size: 2.5rem;
+        
+    }
+    img{
+        position: relative;
+        width: 50vh;
+        border-radius: 20%;
+        box-shadow: 0 0 25px solid #ffd700;  
+    }
+}
+.Hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181A1B;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 5rem;
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
+    .HobbiesContent h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #ffd700;
+    }
+    .HobbiesContent p{
+        font-size: 1.5rem;
+        letter-spacing: 0.8px;
+        margin-right: 30px;
+    }
+    .Hobbiesimg1{
+        border-radius: 20%;
+        margin-right: 50px;
+    }
+    .Hobbiesimg h1{
+        margin-bottom: 15px;
+        color: #ffd700;
+        font-size: 2.5rem;
+        
+    }
+    img{
+        position: relative;
+        width: 30vh;
+        border-radius: 20%;
+        box-shadow: 0 0 25px solid #ffd700;  
+        margin-right: 25px;
+    }
+}
+.Education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181A1B;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 5rem;
+    border-top: 2px solid wheat;
+    .EducationContent h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: wheat;
+    }
+    .EducationContent p{
+        font-size: 1.5rem;
+        letter-spacing: 0.8px;
+        margin-right: 30px;
+    }
+    .Educationimg{
+        border-radius: 20%;
+        margin-right: 50px;
+    }
+    .Educationimg h1{
+        margin-bottom: 15px;
+        color: #ffd700;
+        font-size: 2rem;
+    }
+    img{
+        position: relative;
+        width: 30vh;
+        border-radius: 20%;
+        box-shadow: 0 0 25px solid #ffd700;  
+    }
+}
+.Education1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181A1B;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 5rem;
+    border-bottom: 2px solid wheat;
+    margin-bottom: 20px;
+    .EducationContent h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: wheat;
+    }
+    .EducationContent1 p{
+        font-size: 1.5rem;
+        letter-spacing: 0.8px;
+        margin-right: 30px;
+    }
+    .Educationimg1{
+        margin-right: 50px;
+        border-radius: 39%;
+        margin-right: 50px;  
+    }
+    .Educationimg1 h1{
+        margin-bottom: 15px;
+        color: #ffd700;
+        font-size: 2rem;
+    }
+    img{
+        background-color: #202324;
+        position: relative;
+        width: 30vh;
+        border-radius: 39%;
+        box-shadow: 0 0 25px solid #ffd700;  
+    }
+}
+.Contact{
+    background-color: #181A1B;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 5rem;
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
+    .ContactContent{
+        display: flex;
+    }
+    ul{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .CT{
+        color: wheat;
+    }
+    .Ct1{
+        margin-left: 15px;
+    }
+    .Link{
+        padding-right: 15px;
+    }
+    .Link1{
+        padding-right: 38px;
+    }
+    a{
+        color: wheat;
+    }
+}
+
+@media (max-width: 1000px){
+    .Home{
+        img{
+            width: 45vh;
+        }
+        .HomeContent h1{
+            font-size: 3rem;
+            font-size: 700;
+            line-height: 1.3;
+        }
+        .HomeContent h3{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .HomeContent p{
+            font-size: 1.5rem;
+            letter-spacing: 0.8px;
+        }
+        .HomeImg{
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769) {
+    .Home{
+        img{
+            width: 25vh;
+        }
+        .HomeContent h1{
+            font-size: 1.5rem;
+            font-size: 700;
+            line-height: 1.3;
+        }
+        .HomeContent h3{
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .HomeContent p{
+            font-size: 0.3rem;
+            letter-spacing: 0.8px;
+        }
+        .HomeImg{
+            margin-left: 10px;
+        }
+    }
+}
+@media (max-width: 768){
+    .Home{
+        img{
+            width: 20vh;
+        }
+        .HomeContent h1{
+            font-size: 0.8rem;
+            font-size: 700;
+            line-height: 1.3;
+        }
+        .HomeContent h3{
+            font-size: 0.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .HomeContent p{
+            font-size: 0.1rem;
+            letter-spacing: 0.8px;
+        }
+        .HomeImg{
+            margin-left: 10px;
+        }
+    }
+    .Logo{
+    font-size: 1rem;
+    }
+    nav{
+        display: flex;
+        justify-content: end;
+        margin-right: 2px;
+        ul{
+            a{
+                font-size: 10px;
+            }
+        }
+    }
+
+}
